@@ -77,7 +77,7 @@ public class Main {
                 case 4:
                     int i = 1;
                     for (InventoryItems itemList : inventoryItems) {
-                        System.out.printf("%d. %s - %s", i, itemList.itemName, itemList.cateGory);
+                        System.out.printf("%d. %s - %s \n", i, itemList.itemName, itemList.cateGory);
                         //System.out.println(i + ". " + itemList.itemName);
                         {
                             i++;
